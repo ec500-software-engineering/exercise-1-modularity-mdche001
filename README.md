@@ -14,4 +14,6 @@ To send message, reply to the message and call to specific phone number for the 
 
 ### Authors
 
-* **Mingdao Che** - *sms,call,reply* - [PurpleBooth](https://github.com/ec500-software-engineering/exercise-1-modularity-mdche001/)
+* **Mingdao Che** - *sms_sender.py sms,call,reply* - [PurpleBooth](https://github.com/ec500-software-engineering/exercise-1-modularity-mdche001/)
+
+All other module are complished by my teammates.
