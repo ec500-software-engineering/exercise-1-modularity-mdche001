@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/ec500-software-engineering/exercise-1-modularity-mdche001.svg?branch=master)](https://travis-ci.com/ec500-software-engineering/exercise-1-modularity-mdche001)
+
 # exercise-1-modularity-mdche001
 exercise-1-modularity-mdche001 created by GitHub Classroom
 
