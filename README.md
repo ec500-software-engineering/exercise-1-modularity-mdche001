@@ -9,9 +9,16 @@ exercise-1-modularity-mdche001 created by GitHub Classroom
  To set up this package, you can just run the command as **"pip install twilio"** in your terminal, or you can follow the guide of the offcial book [PurpleBooth](https://www.twilio.com/docs/sms/quickstart/python#install-python-and-the-twilio-helper-library)  
 #### Flask </br>
  To set up this package, you can just run the command as **"pip install flask"** in your terminal, or you can follow the guide of the offcial book [PurpleBooth](https://www.twilio.com/docs/sms/quickstart/python#install-flask-and-set-up-your-development-environment)
-### Main function:
+
+### Run
+
+Just run main.app
+
+### sms_sender module:
 To send message, reply to the message and call to specific phone number for the heart monitor system.
 
 ### Authors
 
-* **Mingdao Che** - *sms,call,reply* - [PurpleBooth](https://github.com/ec500-software-engineering/exercise-1-modularity-mdche001/)
+* **Mingdao Che** - *sms_sender.py sms,call,reply* - [PurpleBooth](https://github.com/ec500-software-engineering/exercise-1-modularity-mdche001/)
+
+All other module are complished by my teammates.
