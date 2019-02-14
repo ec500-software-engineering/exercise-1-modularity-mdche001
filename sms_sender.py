@@ -5,7 +5,7 @@
 
 
 from twilio.rest import Client
-from flask import Flask, request
+# from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 import threading
 import time
@@ -76,18 +76,18 @@ def callmyself(source_phone_num, destination_phone_num,message):
     print(testcall.sid)
 
 
-app = Flask(__name__)
+# app = Flask(__name__)
 
-@app.route("/", methods=['GET', 'POST'])
-def sms_ahoy_reply():
-    """Respond to incoming messages with a friendly SMS."""
-    # Start our response
-    resp = MessagingResponse()
+# @app.route("/", methods=['GET', 'POST'])
+# def sms_ahoy_reply():
+#     """Respond to incoming messages with a friendly SMS."""
+#     # Start our response
+#     resp = MessagingResponse()
 
-    # Add a message
-    resp.message("Thanks so much for your reply, we will contact you as soon as possible!")
+#     # Add a message
+#     resp.message("Thanks so much for your reply, we will contact you as soon as possible!")
 
-    return str(resp)
+#     return str(resp)
 
 if __name__ == "__main__":
     # Msg = Message ('The patient is blooding', 0)
@@ -101,4 +101,4 @@ if __name__ == "__main__":
         t = threading.Thread(target=textmyself(myNumber,twilioNumber,message))
         t.start()
     # textmyself(Msg.get_msg_content()) # From the common types
-    app.run(debug=True)
+#     app.run(debug=True)
