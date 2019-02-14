@@ -1,5 +1,4 @@
 twilio==6.24.0
-
 mypy
 flake8
 pytest
